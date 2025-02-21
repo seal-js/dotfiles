@@ -73,6 +73,9 @@ alias tfs="terraform show"
 # Load global script that defines functions to create functional shell scripts.
 #. ~/js/functional-bricks.sh
 
+#------------------------------------------------
+# Functions
+#------------------------------------------------
 # Create a new directory and change to it.
 function mkdircd () {
      mkdir -p "$@" && eval cd "\"\$$#\"";
